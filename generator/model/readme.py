@@ -16,6 +16,11 @@ class ReadmeModel:
                  license_url: str,
                  issues_url: str,
                  license: str,
+                 install_command: str,
+                 usage_command: str,
+                 test_command: str,
+                 repository: dict,
+                 credits: dict,
                  is_github_repos: bool,
                  has_start_command: bool,
                  has_test_command: bool
@@ -36,6 +41,11 @@ class ReadmeModel:
         self.license_url = license_url
         self.issues_url = issues_url
         self.license = license
+        self.install_command = install_command
+        self.usage_command = usage_command
+        self.test_command = test_command
+        self.repository = repository
+        self.credits = credits
         self.is_github_repos = is_github_repos
         self.has_start_command = has_start_command
         self.has_test_command = has_test_command

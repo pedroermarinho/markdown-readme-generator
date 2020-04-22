@@ -15,15 +15,26 @@
   "license_url": "https://github.com/pedroermarinho/readme-generator/blob/master/LICENSE",
   "issues_url": "https://github.com/pedroermarinho/readme-generator/issues",
   "license": "MIT",
+  "install_command": "python3 setup.py",
+  "usage_command": "python3 run.py",
+  "test_command": "python3 run.py",
 
   "repository": {
     "type": "git",
     "url": "git@github.com:pedroermarinho/readme-generator.git"
   },
+  "credits": {
+    "base_project": {
+      "name": "readme-md-generator",
+      "type": "Base Project",
+      "url": "https://github.com/kefranabg/readme-md-generator"
+    }
+  },
   "keywords": [
     "readme",
     "md"
   ],
+
   "is_github_repos": true,
   "has_start_command": true,
   "has_test_command": false

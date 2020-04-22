@@ -42,6 +42,31 @@ if data.homepage is not None:
 if data.project_demo_url is not None:
   print('### ✨ [Demo]({project_demo_url})'.format(project_demo_url=data.project_demo_url))
 %>
+
+
+
+<%
+if data.install_command is not None:
+  print('## Install')
+  print('```sh')
+  print('{install_command}'.format(install_command=data.install_command))
+  print('```')
+%>
+<%
+if data.usage_command is not None:
+  print('## Usage')
+  print('```sh')
+  print('{usage_command}'.format(usage_command=data.usage_command))
+  print('```')
+%>
+<%
+if data.test_command is not None:
+  print('## Run tests')
+  print('```sh')
+  print('{test_command}'.format(test_command=data.test_command))
+  print('```')
+%>
+
 <%
 if data.author is not None or data.author_twitter_username is not None or data.github_username is not None:
 
@@ -72,6 +97,14 @@ if data.issues_url is not None:
 ## Show your support
 Give a ⭐️ if this project helped you!
 <%
+if data.credits is not None and data.credits.__len__()>0:
+  print('## Credits')
+  for i in data.credits:
+    print('**{type}**'.format(type=data.credits[i]["type"]))
+    print('* [{name}]({url})'.format(name=data.credits[i]["name"],url=data.credits[i]["url"]))
+    print()
+%>
+<%
 if data.license is not None and data.license_url is not None:
   print('## 📝 License')
   if data.author is not None and data.github_username is not None:
@@ -80,3 +113,5 @@ if data.license is not None and data.license_url is not None:
   print('This project is [{license}]({license_url}) licensed.'.format(license=data.license,license_url=data.license_url))
 %>
 
+---
+_This README was created with the [readme-generator](https://github.com/pedroermarinho/readme-generator)_

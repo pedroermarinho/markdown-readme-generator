@@ -12,6 +12,22 @@
 > Gerador de readme.
 ### 🏠 [Homepage](https://github.com/pedroermarinho/readme-generator#readme)
 ### ✨ [Demo](https://github.com/pedroermarinho/readme-generator#readme)
+
+
+
+## Install
+```sh
+python3 setup.py
+```
+## Usage
+```sh
+python3 run.py
+```
+## Run tests
+```sh
+python3 run.py
+```
+
 ## Author
 👤 **Pedro Marinho**
 * Website: https://pedroermarinho.github.io/ 
@@ -24,7 +40,12 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 ## Show your support
 Give a ⭐️ if this project helped you!
+## Credits
+**Base Project**
+* [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
 ## 📝 License
 Copyright © 2020 [Pedro Marinho](https://github.com/pedroermarinho ).<br />
 This project is [MIT](https://github.com/pedroermarinho/readme-generator/blob/master/LICENSE) licensed.
 
+---
+_This README was created with the [readme-generator](https://github.com/pedroermarinho/readme-generator)_

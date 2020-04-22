@@ -21,6 +21,11 @@ def get_info_readme():
         license_url=data.get("license_url", None),
         issues_url=data.get("issues_url", None),
         license=data.get("license", None),
+        install_command=data.get("install_command", None),
+        usage_command=data.get("usage_command", None),
+        test_command=data.get("test_command", None),
+        repository=data.get("repository", None),
+        credits=data.get("credits", None),
         is_github_repos=data.get("is_github_repos", None),
         has_start_command=data.get("has_start_command", None),
         has_test_command=data.get("has_test_command", None)
