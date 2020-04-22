@@ -1,0 +1,30 @@
+{
+  "project_name": "Readme Generator",
+  "version": "0.1.0",
+  "description": "Gerador de readme.",
+  "author": "Pedro Marinho",
+  "github_username": "pedroermarinho",
+  "author_linkedin_username": "pedroermarinho",
+  "author_twitter_username": "pedroermarinho",
+  "author_website": "https://pedroermarinho.github.io/",
+  "homepage": "https://github.com/pedroermarinho/readme-generator#readme",
+  "project_demo_url": "https://github.com/pedroermarinho/readme-generator#readme",
+  "repository_url": "https://github.com/pedroermarinho/readme-generator",
+  "contributing_url": "https://github.com/pedroermarinho/readme-generator/blob/master/CONTRIBUTING.md",
+  "documentation_url": "https://github.com/pedroermarinho/readme-generator#readme",
+  "license_url": "https://github.com/pedroermarinho/readme-generator/blob/master/LICENSE",
+  "issues_url": "https://github.com/pedroermarinho/readme-generator/issues",
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pedroermarinho/readme-generator.git"
+  },
+  "keywords": [
+    "readme",
+    "md"
+  ],
+  "is_github_repos": true,
+  "has_start_command": true,
+  "has_test_command": false
+}
