@@ -9,7 +9,7 @@ with open('requirements.txt') as f:
 setuptools.setup(
     name='markdown-readme-generator',
     keywords='markdown readme generator',
-    version='0.1.1.dev1',
+    version='0.1.1',
     # 1.2.0.dev1  # Development release
     # 1.2.0a1     # Alpha Release
     # 1.2.0b1     # Beta Release
