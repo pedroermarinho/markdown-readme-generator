@@ -1,5 +1,5 @@
 
-<h1 align="center">Welcome to Readme Generator 👋</h1>
+<h1 align="center">Welcome to Markdown Readme Generator 👋</h1>
 
 <p>
 <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
@@ -17,11 +17,11 @@
 
 ## Install
 ```sh
-python3 setup.py
+pip3 install markdown-readme-generator
 ```
 ## Usage
 ```sh
-python3 run.py
+mrgenerator-cli
 ```
 ## Run tests
 ```sh

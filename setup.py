@@ -3,9 +3,18 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
+
 setuptools.setup(
-    name='readme-generator',
-    version='0.1.0',
+    name='markdown-readme-generator',
+    keywords='markdown readme generator',
+    version='0.1.1.dev1',
+    # 1.2.0.dev1  # Development release
+    # 1.2.0a1     # Alpha Release
+    # 1.2.0b1     # Beta Release
+    # 1.2.0rc1    # Release Candidate
+    # 1.2.0       # Final Release
     packages=setuptools.find_packages(),
     url='https://github.com/pedroermarinho/readme-generator',
     license='MIT',
@@ -19,5 +28,13 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6'
+    project_urls={
+        'Documentation': 'https://github.com/pedroermarinho/markdown-readme-generator',
+        'Say Thanks!': 'https://github.com/pedroermarinho/markdown-readme-generator',
+        'Source': 'https://github.com/pedroermarinho/markdown-readme-generator',
+        'Tracker': 'https://github.com/pedroermarinho/markdown-readme-generator/issues',
+    },
+    python_requires='~=3.6',
+    install_requires=requirements,
+    entry_points={'console_scripts': ['mrgenerator-cli = run:main']}
 )

@@ -1,5 +1,5 @@
 {
-  "project_name": "Readme Generator",
+  "project_name": "Markdown Readme Generator",
   "version": "0.1.0",
   "description": "Gerador de readme.",
   "author": "Pedro Marinho",
@@ -15,8 +15,8 @@
   "license_url": "https://github.com/pedroermarinho/readme-generator/blob/master/LICENSE",
   "issues_url": "https://github.com/pedroermarinho/readme-generator/issues",
   "license": "MIT",
-  "install_command": "python3 setup.py",
-  "usage_command": "python3 run.py",
+  "install_command": "pip3 install markdown-readme-generator",
+  "usage_command": "mrgenerator-cli",
   "test_command": "python3 run.py",
 
   "repository": {
