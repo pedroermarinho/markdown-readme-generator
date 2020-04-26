@@ -3,6 +3,9 @@ class ReadmeModel:
                  project_name: str,
                  version: str,
                  description: str,
+                 snap_store_name: str,
+                 icon_src: str,
+                 screenshot_src: dict,
                  author: str,
                  github_username: str,
                  author_website: str,
@@ -16,9 +19,9 @@ class ReadmeModel:
                  license_url: str,
                  issues_url: str,
                  license: str,
-                 install_command: str,
-                 usage_command: str,
-                 test_command: str,
+                 install_command: dict,
+                 usage_command: dict,
+                 test_command: dict,
                  repository: dict,
                  credits: dict,
                  is_github_repos: bool,
@@ -28,6 +31,9 @@ class ReadmeModel:
         self.project_name = project_name
         self.version = version
         self.description = description
+        self.snap_store_name = snap_store_name
+        self.icon_src = icon_src
+        self.screenshot_src = screenshot_src
         self.author = author
         self.github_username = github_username
         self.author_linkedin_username = author_linkedin_username
@@ -55,6 +61,9 @@ class ReadmeModel:
             'project_name': self.project_name,
             'version': self.version,
             'description': self.description,
+            'snap_store_name': self.snap_store_name,
+            'icon_src': self.icon_src,
+            'screenshot_src': self.screenshot_src,
             'author': self.author,
             'github_username': self.github_username,
             'author_linkedin_username': self.author_linkedin_username,
@@ -84,6 +93,9 @@ class ReadmeModel:
             project_name=data.get("project_name", None),
             version=data.get("version", None),
             description=data.get("description", None),
+            snap_store_name=data.get("snap_store_name", None),
+            icon_src=data.get("icon_src", None),
+            screenshot_src=data.get("screenshot_src", None),
             author=data.get("author", None),
             github_username=data.get("github_username", None),
             author_linkedin_username=data.get("author_linkedin_username", None),
