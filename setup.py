@@ -9,7 +9,7 @@ with open('requirements.txt') as f:
 setuptools.setup(
     name='markdown-readme-generator',
     keywords='markdown readme generator',
-    version='0.1.1',
+    version='0.1.2',
     # 1.2.0.dev1  # Development release
     # 1.2.0a1     # Alpha Release
     # 1.2.0b1     # Beta Release
@@ -36,5 +36,5 @@ setuptools.setup(
     },
     python_requires='~=3.6',
     install_requires=requirements,
-    entry_points={'console_scripts': ['mrgenerator-cli = run:main']}
+    entry_points={'console_scripts': ['mrgenerator-cli = run:cli']}
 )
