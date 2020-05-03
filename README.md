@@ -53,4 +53,4 @@ Copyright © 2020 [Pedro Marinho](https://github.com/pedroermarinho ).<br/>
 This project is [MIT](https://github.com/pedroermarinho/markdown-readme-generator/blob/master/LICENSE) licensed.
 
 ---
-_This README was created with the [readme-generator](https://github.com/pedroermarinho/markdown-readme-generator)_
+_This README was created with the [markdown-readme-generator](https://github.com/pedroermarinho/markdown-readme-generator)_

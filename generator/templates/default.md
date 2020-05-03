@@ -58,4 +58,4 @@ Copyright © {{datetime.today().year}} [{{data.author}}](https://github.com/{{da
 This project is [{{data.license}}]({{data.license_url}}) licensed.{% endif %}
 
 ---
-_This README was created with the [readme-generator](https://github.com/pedroermarinho/markdown-readme-generator)_
+_This README was created with the [markdown-readme-generator](https://github.com/pedroermarinho/markdown-readme-generator)_
