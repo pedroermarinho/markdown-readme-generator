@@ -11,7 +11,7 @@ def write_readme(name=None, path=None):
     name = "README.md" if name is None else name
 
     env = Environment(loader=FileSystemLoader(utils.get_templates_dir()))
-    template = env.get_template('default.md')
+    template = env.get_template('default.pmd')
     filename = os.path.join(path, name)
     with open(filename, 'w') as fh:
         fh.write(template.render(

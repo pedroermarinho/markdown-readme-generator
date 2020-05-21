@@ -4,8 +4,8 @@ import os.path
 
 def create_json(lista):
     file = os.path.join(get_path_directory(), "readme.json")
-    with open(file, 'w') as f:
-        json.dump(lista, f)
+    with open(file, 'w', encoding='utf-8') as outfile:
+        json.dump(lista, outfile, indent=4, ensure_ascii=False, sort_keys=False)
 
 
 def get_readme_json() -> dict:
@@ -15,7 +15,7 @@ def get_readme_json() -> dict:
 
 
 def get_templates_dir():
-    return os.path.join("templates")
+    return os.path.join(os.path.dirname(os.path.realpath(__file__)), "templates")
 
 
 def get_path_directory():

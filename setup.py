@@ -8,19 +8,22 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name='markdown-readme-mrgenerator',
-    keywords='markdown readme mrgenerator',
-    version='0.1.3',
+    keywords='markdown readme mrgenerator generator',
+    version='0.1.4',
     # 1.2.0.dev1  # Development release
     # 1.2.0a1     # Alpha Release
     # 1.2.0b1     # Beta Release
     # 1.2.0rc1    # Release Candidate
     # 1.2.0       # Final Release
     packages=setuptools.find_packages(),
+    package_data={
+        "": ["*.pmd"],
+    },
     url='https://github.com/pedroermarinho/markdown-readme-generator',
     license='MIT',
     author='Pedro Marinho',
     author_email='pedro.marinho238@gmail.com',
-    description='readme mrgenerator',
+    description='readme generator',
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[
