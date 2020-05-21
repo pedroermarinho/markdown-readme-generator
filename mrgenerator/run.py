@@ -1,6 +1,6 @@
 import click
 
-from generator.generator import Generator
+from mrgenerator.generator import Generator
 
 app = Generator()
 

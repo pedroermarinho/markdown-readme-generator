@@ -1,5 +1,5 @@
-from generator import readme
-from generator.infos import create_info_json
+from mrgenerator import readme
+from mrgenerator.infos import create_info_json
 
 
 class Generator(object):

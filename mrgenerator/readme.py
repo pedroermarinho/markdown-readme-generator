@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader
-from generator import utils, infos
+from mrgenerator import utils, infos
 
 
 def write_readme(name=None, path=None):

@@ -15,7 +15,7 @@ def get_readme_json() -> dict:
 
 
 def get_templates_dir():
-    return os.path.join(os.path.dirname(os.path.realpath(__file__)), "templates")
+    return os.path.join("templates")
 
 
 def get_path_directory():

@@ -1,5 +1,5 @@
-from generator.model.readme import ReadmeModel
-from generator.utils import get_readme_json, create_json
+from mrgenerator.model.readme import ReadmeModel
+from mrgenerator.utils import get_readme_json, create_json
 
 
 def get_info_readme():

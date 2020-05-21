@@ -7,8 +7,8 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setuptools.setup(
-    name='markdown-readme-generator',
-    keywords='markdown readme generator',
+    name='markdown-readme-mrgenerator',
+    keywords='markdown readme mrgenerator',
     version='0.1.3',
     # 1.2.0.dev1  # Development release
     # 1.2.0a1     # Alpha Release
@@ -16,11 +16,11 @@ setuptools.setup(
     # 1.2.0rc1    # Release Candidate
     # 1.2.0       # Final Release
     packages=setuptools.find_packages(),
-    url='https://github.com/pedroermarinho/readme-generator',
+    url='https://github.com/pedroermarinho/markdown-readme-generator',
     license='MIT',
     author='Pedro Marinho',
     author_email='pedro.marinho238@gmail.com',
-    description='readme generator',
+    description='readme mrgenerator',
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[
@@ -36,5 +36,5 @@ setuptools.setup(
     },
     python_requires='~=3.6',
     install_requires=requirements,
-    entry_points={'console_scripts': ['mrgenerator-cli = run:cli']}
+    entry_points={'console_scripts': ['mrgenerator-cli = mrgenerator.run:cli']}
 )
