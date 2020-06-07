@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setuptools.setup(
-    name='markdown-readme-mrgenerator',
+    name='markdown-readme-generator',
     keywords='markdown readme mrgenerator generator',
     version='0.1.4',
     # 1.2.0.dev1  # Development release
