@@ -1,7 +1,7 @@
 <h1 align="center">
 
 Welcome to Markdown Readme Generator 👋
-
+<a href="https://snapcraft.io/mrgenerator-cli"> <br/> <img src="https://github.com/snapcore/snap-store-badges/raw/master/PT/%5BPT%5D-snap-store-black-uneditable%401x.png"></a>
 </h1>
 <p>
 <img alt="Version" src="https://img.shields.io/badge/version-0.1.3-blue.svg?cacheSeconds=2592000" />
@@ -49,7 +49,7 @@ Give a ⭐️ if this project helped you!
 **[readme-md-generator](https://github.com/kefranabg/readme-md-generator)**
 ## 📝 License
 
-Copyright © 2020 [Pedro Marinho](https://github.com/pedroermarinho ).<br/>
+Copyright © 2021 [Pedro Marinho](https://github.com/pedroermarinho ).<br/>
 This project is [MIT](https://github.com/pedroermarinho/markdown-readme-generator/blob/master/LICENSE) licensed.
 
 ---

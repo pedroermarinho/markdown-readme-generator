@@ -3,7 +3,7 @@
   "version": "0.1.3",
   "description": "Gerador de readme.",
   "icon_src": null,
-  "snap_store_name": null,
+  "snap_store_name": "mrgenerator-cli",
   "screenshot_src": [],
   "author": "Pedro Marinho",
   "github_username": "pedroermarinho",
