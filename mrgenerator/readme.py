@@ -13,7 +13,7 @@ def write_readme(name=None, path=None):
     env = Environment(loader=FileSystemLoader(utils.get_templates_dir()))
     template = env.get_template('default.pmd')
     filename = os.path.join(path, name)
-    with open(filename, 'w') as fh:
+    with open(filename, 'w', encoding='utf-8') as fh:
         fh.write(template.render(
             data=infos.get_info_readme(),
             datetime=datetime
